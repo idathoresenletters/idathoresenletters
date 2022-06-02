@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Amandus Johnson to Ida von Schulzenheim, 04 April 1931: TEI
+                    Transcription.</title>
+                <respStmt>
+                    <resp>Encoding by</resp>
+                    <name>Sofia Rödström</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Charlotte Selander and Sofia Rödström</authority>
+                <publisher>University of Borås</publisher>
+                <date when="20220607"/>
+                <distributor>
+                    <name>University of Borås</name>
+                    <name>Faculty of Librarianship, Information, Education and IT</name>
+                    <address>
+                        <addrLine>Allégatan 1</addrLine>
+                        <addrLine>501 90 Borås</addrLine>
+                        <addrLine>Sweden</addrLine>
+                        <addrLine>https://www.hb.se/en/staff/faculty-of-librarianship-information-education-and-it/</addrLine>
+                    </address>
+                    <idno type="project">Letter 3</idno>
+                </distributor>
+                <availability>
+                    <licence target="http://www.creativecommons.org//licenses/by-sa/4.0/">
+                        <p>Original letter and currently in the public domain (Github).
+                            Transcription distributed under a CC-BY-SA 4.0 license</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>The original letter is in the hands of a distant relative of Ida Thoresen,
+                    Helena Nystedt, who has approved the use of the letters for this
+                    assignment.</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>Previously unpublished letter. <respStmt>
+                        <resp when="20220308">Facsimile created by</resp>
+                        <name>Charlotte Selander</name>
+                    </respStmt>
+                </bibl>
+            </sourceDesc>
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from Amandus Johnson to Ida von Schulzenheim, 04 April
+                        1931</title>
+                    <author>Amandus Johnson</author>
+                    <date>04 April 1931</date>
+                    <lang>eng</lang>
+                    <note> "eng", according to ISO 639-2 Code</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>Examination assignment within the course Digitising Cultural Heritage Material
+                    VT22.</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors have been marked as <sic/>, but correct readings not
+                        provided.</p>
+                </correction>
+                <hyphenation>
+                    <p>Hyphens have been transcribed as they appear</p>
+                </hyphenation>
+                <p>The appearance of graphic figures are briefly described in prose.</p>
+                <p>Shifts between handwritten and machine written type are marked with <handShift/>
+                    .</p>
+            </editorialDecl>
+        </encodingDesc>
+
+    </teiHeader>
+
+
+    <text type="letter">
+        <body>
+            <pb n="1"/>
+            <opener>
+                <emph rend="underline"><foreign>Avskrift.</foreign></emph>
+                <lb/>
+                <dateline rend="text-align: center"><orgName rend="case: allcaps">AMERICAN SONS AND
+                        DAUGHTERS OF SWEDEN</orgName><lb/>
+                    <placeName>John Morton Memorial Building</placeName>
+                    <lb/>
+                    <placeName rend="case: allcaps">PHILADELPHIA.</placeName></dateline> <lb/>
+                <dateline rend="text-align: right">
+                    <date when="1931-04-04">April 4, 1931</date>
+                </dateline><lb/>
+            </opener>
+
+            <p rend="text-align: left"> Dear <roleName type="honorific">Miss</roleName> von
+                <surname>Schulzenheim!</surname><lb/> <lb/>
+            </p>
+            <p>I was ill for nearly two weeks lest month, which has made it very difficult<lb/> for
+                me to look after matters here, as they piled up in every direction during<lb/> my
+                indisposition.<lb/><lb/></p>
+            <p>I made a special trip out to <placeName>Chicago</placeName> and <placeName>the
+                    west</placeName> in reference to the pieces<lb/> of sculpture when I found that
+                    <roleName type="honorific">Mr.</roleName>
+                <surname>Bendix</surname> did <sic>no</sic> take them and I even went as<lb/> far as
+                    <placeName>Kewanee</placeName> to try to persuade <roleName type="honorific"
+                    >Mr.</roleName>
+                <surname>Waller</surname> to take one or both of the pieces,<lb/> but I had no
+                success. I have now written to <roleName type="honorific"><sic>M.</sic></roleName>
+                <surname>Bendix</surname>, making the situation<lb/> clear to him and asking him to
+                reconsider his decision, but I have heard<lb/> nothing so far, and I have today
+                written his secretary asking for an early<lb/> reply. When I hear something definite
+                I will let you know immediately.<lb/><lb/></p>
+            <p>When I first reported the sale of <name><sic><emph rend="underline">Kings of
+                            the</emph></sic> Air</name> by <roleName type="honorific"
+                    >Miss</roleName>
+                <surname>Thoresen</surname>, she was<lb/> apparently pleased and said nothing about
+                not being allowed to sell that<lb/> particular copy. I therefore, when I heard from
+                her that she would accept<lb/>
+                <num type="ordinal" value="2000.00">$ 2000.00</num>, had the piece boxed and sent to
+                    <roleName type="honorific">Mr.</roleName>
+                <surname>Bendix</surname>, and if she has sent him<lb/> a second copy that
+                transaction must be between him and her. Such a mixup is,<lb/> to say the least,
+                annoying. I have had some trouble with the prices also, as<lb/> you know, since you
+                had - in some cases - written one price on the label<lb/> placed on the works of art
+                and another price in our catalogue, but I think we<lb/> have that straightened that
+                out now.<lb/><lb/></p>
+            <p>The stringent financial conditions and the depression here still continue,<lb/> and
+                are very much worse than you people in <placeName>Sweden</placeName> have any idea
+                of or realize,<lb/> and in some instances they are getting worse instead of better.
+                    <roleName>Count</roleName>
+                <surname>Berna-<lb/> dotte</surname> and <roleName>Baron</roleName>
+                <surname>Langenskjöld</surname> have just completed a trip through American<lb/>
+                factories and <roleName>Baron</roleName>
+                <surname>Langenskjöld</surname> told me yesterday that in his opinion times<lb/>
+                here would be still worse than they are today. The newspapers are telling a<lb/>
+                different story to keep up the courage and morale of the nation. It has<lb/> been
+                absolutely impossible to raise sufficient money here to put on a big<lb/>
+                celebration in connection with the dedication of the John Morton Building, and<lb/>
+                the committee has once again come to the conclusion that that we cannot have the
+                dedi-<lb/> cation until perhaps in the fall. I am absolutely frantic about it,
+                but<lb/> nothing can be done. <roleName>Dr.</roleName>
+                <surname>Lewis</surname> and I are working on some way of opening<lb/> the Exhibit
+                independently of the dedication and making plans for some kind of<lb/> publicity
+                campaign, but this is also going to be difficult. <orgName>The Academy of<lb/> Fine
+                    Arts</orgName> has never had such an unsuccessful season in their 128 years
+                of<lb/> existence. During their winter exhibition they did not sell a single
+                piece,<lb/> which is an unheard of situation in <placeName>Philadelphia</placeName>.
+                It is best, therefore, not<lb/> to make any definite arrangements for coming here
+                until I can give you the<lb/> complete plan.<lb/><lb/></p>
+            <pb n="2"/>
+            <p><lb/>I have been corresponding with the <orgName>Brooklyn Museum of Fine arts</orgName> as
+                well as<lb/> other institutions, asking them to take on the exhibit from here.
+                    <roleName>The<lb/> Director</roleName> of <orgName>the Brooklyn Museum</orgName>
+                came here personally and inspected the works,<lb/> pronouncing them fine indeed.
+                However, he could promise to take only a<lb/> portion of the exhibition on account
+                of limited space, and as I could not tell<lb/> him whether or not you would agree to
+                this, we have nothing definite with<lb/> them.<lb/><lb/>
+            </p>
+            <p>It has been suggested to me that perhaps a better plan would be to bring the<lb/>
+                exhibit to the smaller cities, like <placeName>Wilmington, Del.</placeName>,
+                    <placeName>Trenton, New Jersey</placeName>,<lb/> and so on, with better success.
+                    <roleName type="honorific">Mr.</roleName>
+                <surname>Pearson</surname>, the <roleName>manager</roleName> of the
+                    <orgName>Pearson<lb/> Galleries</orgName> in <placeName>New York</placeName>,
+                told me that he had an exhibition recently at which not<lb/> a single thing was
+                sold, but that he put on smaller exhibits in other towns<lb/> of the state and thus
+                managed to get rid of quite a few sculptures<lb/> which he could not sell in
+                <placeName>New York City</placeName>.<lb/><lb/>
+            </p>
+            <p>It is terribly unfortunate that your exhibit should be caught in this gene-<lb/> ral
+                world depression, but we are helpless in the matter and I do not know<lb/> what to
+                do. I have managed to pay the expenses, the transportation from<lb/>
+                <placeName>New York</placeName>, custom charges, insurance, etc., which were
+                exceedingly heavy.<lb/> We have had a large number of visitors at the Building, who
+                have been much<lb/> interested in the exhibit, and I have tried to sell some of the
+                works, but<lb/> with little success.<lb/><lb/>
+            </p>
+            <p><roleName>Consul</roleName>
+                <surname>von Dardel</surname> is no longer in <placeName>Chicago</placeName>, but
+                was removed to <placeName>Java</placeName>. It also<lb/> appears that <roleName
+                    type="honorific">Miss</roleName>
+                <surname>Thoresen</surname> has written to <roleName type="honorific">Mr.</roleName>
+                <surname>Lincoln</surname> in <placeName>Chicago</placeName>, and I<lb/> have also
+                learned that she intends to submit the matter to <orgName>the Foreign<lb/>
+                    Department</orgName> to press it through <roleName>the Swedish
+                    Minister</roleName> at <placeName>Washington</placeName>. This<lb/> will do no
+                good whatsoever, and will only serve to antagonize <roleName type="honorific"
+                    >Mr.</roleName>
+                <surname>Bendix</surname><lb/> and complicate matters still further.<lb/> <lb/>
+            </p>
+
+            <closer> Regretting that the conditions are so unfortunate, I am<lb/>
+                <salute rend="text-align: right">Very sincerely yours,</salute><lb/>
+                <signed rend="text-align: right"><forename>Amandus</forename>
+                    <surname>Johnson</surname></signed>.<lb/>
+                <signed rend="monogram, text-align: left">AJ/n</signed><lb/>
+            </closer>
+        </body>
+    </text>
+</TEI>
