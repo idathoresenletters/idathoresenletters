@@ -10,7 +10,7 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>collection/tei/Brev_10_Amandus%20Johnsson%20to%20the%20General%20Consul_UPDATED.xml</String>
+                                    <String>collection/tei/Letter_9.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -20,26 +20,6 @@
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>docs/assets/xsl/toplayer.xsl</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>toplayer</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
@@ -190,6 +170,126 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>collection/tei/Letter_14.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>allabrev</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>collection/tei/Letter_13.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>allabrev</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>collection/tei/Letter_12.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>allabrev</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>collection/tei/Letter_11_2.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>allabrev</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>collection/tei/Letter_11_1.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>allabrev</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>collection/tei/Letter_10.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>allabrev</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>collection/tei/Letter_1.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -211,6 +311,46 @@
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>collection/tei/DCHM_example.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>allabrev</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>docs/assets/xsl/toplayer.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>toplayer</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>collection/tei/Brev_10_Amandus%20Johnsson%20to%20the%20General%20Consul_UPDATED.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -527,15 +667,14 @@
     </meta>
     <projectTree name="IdaThoresenLetters.xpr">
         <folder name="allabrev">
-            <file name="collection/tei/Brev_10_Amandus%20Johnsson%20to%20the%20General%20Consul_UPDATED.xml"/>
-            <file name="collection/tei/Brev_11_1_OH%20Larsson%20till%20Ida%20Thoresen_UPDATED.xml"/>
-            <file name="collection/tei/Brev_11_2_OH%20Larsson%20till%20Amandus%20Johnson_UPDATED.xml"/>
-            <file name="collection/tei/Brev_12_%20minister%20Bostro%CC%88m%20till%20Ida%20Thoresen_UPDATED.xml"/>
-            <file name="collection/tei/Brev_13_vice%20konsult%20till%20Ida%20Thoresen_UPDATED.xml"/>
-            <file name="collection/tei/Brev_14_OH%20Larsson%20till%20Ida%20Thoresen_UPDATED.xml"/>
-            <file name="collection/tei/Brev_9_minister%20Bostro%CC%88m%20till%20Ida%20Thoresen_UPDATED.xml"/>
             <file name="collection/tei/DCHM_example.xml"/>
             <file name="collection/tei/Letter_1.xml"/>
+            <file name="collection/tei/Letter_10.xml"/>
+            <file name="collection/tei/Letter_11_1.xml"/>
+            <file name="collection/tei/Letter_11_2.xml"/>
+            <file name="collection/tei/Letter_12.xml"/>
+            <file name="collection/tei/Letter_13.xml"/>
+            <file name="collection/tei/Letter_14.xml"/>
             <file name="collection/tei/Letter_2.xml"/>
             <file name="collection/tei/Letter_3.xml"/>
             <file name="collection/tei/Letter_4.xml"/>
@@ -543,6 +682,7 @@
             <file name="collection/tei/Letter_6.xml"/>
             <file name="collection/tei/Letter_7.xml"/>
             <file name="collection/tei/Letter_8.xml"/>
+            <file name="collection/tei/Letter_9.xml"/>
         </folder>
         <folder path="."/>
     </projectTree>

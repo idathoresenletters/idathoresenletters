@@ -31,38 +31,31 @@
                 </header>
                 <nav id="sitenav">
                     <a href="index.html">Home</a> |
-                    <a href="toplayer.html">Top Layer</a> |
+                    <a href="Letters.html">Letters</a>
                 </nav>
                 <main>
-                    <!-- bootstrap "container" class makes the columns look pretty -->
-                    <div class="container">
-                        <!-- define a row layout with bootstrap's css classes (three columns) -->
-                        <div class="row">
-                            <!-- first column: load the thumbnail image based on the IIIF link in the graphic above -->
-                            <div class="col-">
-                                <article id="thumbnail">
-                                    <img>
-                                        <xsl:attribute name="src">
-                                            <xsl:value-of select="//tei:surface[@xml:id='postit01']//tei:graphic[@xml:id='postit01_thumb']/@url"/>
-                                        </xsl:attribute>
-                                        <xsl:attribute name="title">
-                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='postit01']//tei:label"/>
-                                        </xsl:attribute>
-                                        <xsl:attribute name="alt">
-                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='postit01']//tei:figDesc"/>
-                                        </xsl:attribute>
-                                    </img>
-                                </article>
-                            </div>
-                            <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
-                            <div class="col-md">
-                                <article id="transcription" style="width: fit-content;">
-                                    <xsl:apply-templates select="//tei:TEI//tei:text"/>
-                                </article>
-                            </div>
-                            <!-- third column: empty sidebar -->
-                            <div class="col-">
-                            </div>
+                    <div class="content">
+                        <!-- first column: load the thumbnail image based on the IIIF link in the graphic above -->
+                        <div class="col-">
+                            <article id="thumbnail" class="image-container">
+                                <img class="letter-image">
+                                    <xsl:attribute name="src">
+                                        <xsl:value-of select="//tei:surface[@xml:id='postit01']//tei:graphic[@xml:id='postit01_thumb']/@url"/>
+                                    </xsl:attribute>
+                                    <xsl:attribute name="title">
+                                        <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='postit01']//tei:label"/>
+                                    </xsl:attribute>
+                                    <xsl:attribute name="alt">
+                                        <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='postit01']//tei:figDesc"/>
+                                    </xsl:attribute>
+                                </img>
+                            </article>
+                        </div>
+                        <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
+                        <div class="col-md">
+                            <article id="transcription" style="width: fit-content;">
+                                <xsl:apply-templates select="//tei:TEI//tei:text"/>
+                            </article>
                         </div>
                     </div>
                 </main>

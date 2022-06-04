@@ -4,12 +4,13 @@ body {
 	padding: 1vw;
 	font-family: 'Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia,serif';
 	line-height: 1.25;
-	font-size: 1vw;
+	font-size: 1em;
   width: 100%;
 	}
 
 h1, h2, h3, nav, footer {
     text-align: center;
+    font-size: 1.5em;
 }
 
 nav {
@@ -54,3 +55,34 @@ footer {
 		width: 1vw;
 		margin:.15vw;
 	}
+.letter-image {
+    width: 600px;
+    margin-top: 6%;
+    margin-left: 25%;
+}
+.image-container {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.col-md {
+    display: flex;
+    justify-content: center;
+}
+.letternav {
+    display:flex;
+    flex-direction:row;
+    width: 100%;
+    justify-content: space-between;
+}
+.letterlink {
+    display:block;
+    margin: 5px;
+    width: 100px;
+}
